@@ -38,9 +38,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg mb-4">Contactos</h3>
             <ul className="space-y-3 text-sm opacity-80">
-              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary shrink-0" /> Rua da Indústria, Luanda, Angola</li>
-              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary shrink-0" /> +244 923 456 789</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary shrink-0" /> info@socoal.co.ao</li>
+              <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary shrink-0" /> Av. da Indústria, Maputo, Moçambique</li>
+              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary shrink-0" /> +258 84 123 4567</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary shrink-0" /> info@socoal.co.mz</li>
             </ul>
           </div>
 
