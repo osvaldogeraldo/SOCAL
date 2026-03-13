@@ -31,7 +31,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm mb-1">Localização</h3>
-                  <p className="text-sm text-muted-foreground">Rua da Indústria, nº 123, Luanda, Angola</p>
+                  <p className="text-sm text-muted-foreground">Av. da Indústria, nº 123, Maputo, Moçambique</p>
                 </div>
               </div>
               <div className="flex gap-4">
