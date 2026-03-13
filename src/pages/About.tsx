@@ -23,7 +23,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl mb-4">A Nossa História</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A SOCOAL nasceu da paixão pela eletricidade e da vontade de oferecer aos angolanos produtos de qualidade a preços acessíveis. Desde a nossa fundação, temos vindo a crescer e a expandir o nosso catálogo para atender às necessidades de electricistas profissionais e clientes particulares.
+              A SOCOAL nasceu da paixão pela eletricidade e da vontade de oferecer aos moçambicanos produtos de qualidade a preços acessíveis. Desde a nossa fundação, temos vindo a crescer e a expandir o nosso catálogo para atender às necessidades de electricistas profissionais e clientes particulares.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Com uma equipa dedicada e conhecedora do setor, garantimos não só a venda de produtos, mas também aconselhamento técnico especializado para que cada projeto seja realizado com segurança e eficiência.

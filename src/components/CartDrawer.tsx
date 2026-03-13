@@ -9,7 +9,7 @@ export default function CartDrawer() {
   if (!isCartOpen) return null;
 
   const whatsappMessage = items.map(i => `${i.quantity}x ${i.product.name} - ${formatPrice(i.product.price * i.quantity)}`).join("\n");
-  const whatsappUrl = `https://wa.me/244923456789?text=${encodeURIComponent(`Olá! Gostaria de encomendar:\n\n${whatsappMessage}\n\nTotal: ${formatPrice(totalPrice)}`)}`;
+  const whatsappUrl = `https://wa.me/258841234567?text=${encodeURIComponent(`Olá! Gostaria de encomendar:\n\n${whatsappMessage}\n\nTotal: ${formatPrice(totalPrice)}`)}`;
 
   return (
     <>

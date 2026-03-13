@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl mb-4 text-primary">SOCOAL</h3>
             <p className="text-sm opacity-80 leading-relaxed">
-              Sua loja de confiança para materiais elétricos, ferramentas e acessórios. Qualidade e preço justo para profissionais e particulares.
+              A sua loja de confiança para materiais eléctricos, ferramentas e acessórios. Qualidade e preço justo para profissionais e particulares em Moçambique.
             </p>
             <div className="flex gap-3 mt-4">
               <a href="https://facebook.com/socoal" target="_blank" rel="noopener noreferrer" className="p-2 bg-primary/20 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">

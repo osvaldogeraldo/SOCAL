@@ -19,7 +19,7 @@ export default function ProductDetail() {
   }
 
   const related = products.filter(p => p.categorySlug === product.categorySlug && p.id !== product.id).slice(0, 4);
-  const whatsappUrl = `https://wa.me/244923456789?text=${encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name} - ${formatPrice(product.price)}`)}`;
+  const whatsappUrl = `https://wa.me/258841234567?text=${encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name} - ${formatPrice(product.price)}`)}`;
 
   return (
     <>

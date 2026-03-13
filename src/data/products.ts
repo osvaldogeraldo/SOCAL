@@ -67,6 +67,6 @@ export const reviews = [
   { name: "Maria F.", rating: 5, text: "A melhor loja de material elétrico da região. Equipe muito competente.", date: "2024-04-05" },
 ];
 
-export function formatPrice(cents: number): string {
-  return new Intl.NumberFormat('pt-AO', { style: 'currency', currency: 'AOA' }).format(cents);
+export function formatPrice(value: number): string {
+  return new Intl.NumberFormat('pt-MZ', { style: 'currency', currency: 'MZN' }).format(value);
 }

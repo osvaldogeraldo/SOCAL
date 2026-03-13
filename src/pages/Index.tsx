@@ -52,7 +52,7 @@ export default function Index() {
       {/* Benefits bar */}
       <section className="bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4 py-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span>Entrega em toda Angola</span></div>
+          <div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span><div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span>Entrega em todo Moçambique</span></div></span></div>
           <div className="flex items-center justify-center gap-3 text-sm"><Shield className="h-5 w-5 text-primary" /><span>Produtos com garantia</span></div>
           <div className="flex items-center justify-center gap-3 text-sm"><Headphones className="h-5 w-5 text-primary" /><span>Suporte profissional</span></div>
         </div>

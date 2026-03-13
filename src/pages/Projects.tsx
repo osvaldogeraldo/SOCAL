@@ -4,10 +4,10 @@ import catFerramentas from "@/assets/cat-ferramentas.jpg";
 import aboutStore from "@/assets/about-store.jpg";
 
 const projects = [
-  { title: "Instalação Elétrica Residencial", location: "Talatona, Luanda", description: "Instalação completa do sistema elétrico de uma moradia de 4 quartos, incluindo quadro de distribuição, iluminação LED e tomadas.", image: aboutStore },
-  { title: "Iluminação Comercial LED", location: "Maianga, Luanda", description: "Substituição de toda a iluminação convencional por LED numa loja comercial, reduzindo o consumo energético em 60%.", image: catIluminacao },
-  { title: "Quadro Elétrico Industrial", location: "Viana, Luanda", description: "Montagem e instalação de quadro elétrico industrial com proteção diferencial e disjuntores para uma fábrica.", image: catMateriais },
-  { title: "Manutenção Preventiva", location: "Belas, Luanda", description: "Serviço de manutenção preventiva do sistema elétrico de um condomínio, verificação de cabos e substituição de componentes.", image: catFerramentas },
+  { title: "Instalação Elétrica Residencial", location: "Matola, Maputo", description: "Instalação completa do sistema elétrico de uma moradia de 4 quartos, incluindo quadro de distribuição, iluminação LED e tomadas.", image: aboutStore },
+  { title: "Iluminação Comercial LED", location: "Polana, Maputo", description: "Substituição de toda a iluminação convencional por LED numa loja comercial, reduzindo o consumo energético em 60%.", image: catIluminacao },
+  { title: "Quadro Elétrico Industrial", location: "Machava, Maputo", description: "Montagem e instalação de quadro elétrico industrial com proteção diferencial e disjuntores para uma fábrica.", image: catMateriais },
+  { title: "Manutenção Preventiva", location: "Sommerschield, Maputo", description: "Serviço de manutenção preventiva do sistema elétrico de um condomínio, verificação de cabos e substituição de componentes.", image: catFerramentas },
 ];
 
 export default function Projects() {
