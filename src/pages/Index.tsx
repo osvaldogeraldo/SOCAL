@@ -41,7 +41,7 @@ export default function Index() {
               <Link to="/loja" className="gradient-primary text-primary-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity inline-flex items-center gap-2">
                 Ver Produtos <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="https://wa.me/244923456789" target="_blank" rel="noopener noreferrer" className="bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity">
+              <a href="https://wa.me/258841234567" target="_blank" rel="noopener noreferrer" className="bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity">
                 Fale Connosco
               </a>
             </div>
@@ -52,7 +52,7 @@ export default function Index() {
       {/* Benefits bar */}
       <section className="bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-4 py-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span>Entrega em toda Angola</span></div>
+          <div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span><div className="flex items-center justify-center gap-3 text-sm"><Truck className="h-5 w-5 text-primary" /><span>Entrega em todo Moçambique</span></div></span></div>
           <div className="flex items-center justify-center gap-3 text-sm"><Shield className="h-5 w-5 text-primary" /><span>Produtos com garantia</span></div>
           <div className="flex items-center justify-center gap-3 text-sm"><Headphones className="h-5 w-5 text-primary" /><span>Suporte profissional</span></div>
         </div>

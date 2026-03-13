@@ -36,10 +36,10 @@ export default function Header() {
         <div className="container mx-auto px-4 py-2 flex items-center justify-between text-sm">
           <div className="flex items-center gap-2">
             <Phone className="h-3 w-3" />
-            <span>+244 923 456 789</span>
+            <span>+258 84 123 4567</span>
           </div>
-          <span className="hidden sm:block font-medium">Entrega em toda Angola 🇦🇴</span>
-          <a href="https://wa.me/244923456789" target="_blank" rel="noopener noreferrer" className="bg-whatsapp px-3 py-1 rounded text-xs font-semibold text-whatsapp-foreground hover:opacity-90 transition-opacity">
+          <span className="hidden sm:block font-medium">Entrega em todo Moçambique 🇲🇿</span>
+          <a href="https://wa.me/258841234567" target="_blank" rel="noopener noreferrer" className="bg-whatsapp px-3 py-1 rounded text-xs font-semibold text-whatsapp-foreground hover:opacity-90 transition-opacity">
             WhatsApp
           </a>
         </div>

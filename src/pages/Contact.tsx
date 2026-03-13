@@ -7,7 +7,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Nome: ${form.name}\nEmail: ${form.email}\nTelefone: ${form.phone}\n\n${form.message}`;
-    window.open(`https://wa.me/244923456789?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/258841234567?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
@@ -31,7 +31,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm mb-1">Localização</h3>
-                  <p className="text-sm text-muted-foreground">Rua da Indústria, nº 123, Luanda, Angola</p>
+                  <p className="text-sm text-muted-foreground">Av. da Indústria, nº 123, Maputo, Moçambique</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm mb-1">Telefone</h3>
-                  <p className="text-sm text-muted-foreground">+244 923 456 789</p>
+                  <p className="text-sm text-muted-foreground">+258 84 123 4567</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -49,7 +49,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm mb-1">Email</h3>
-                  <p className="text-sm text-muted-foreground">info@socoal.co.ao</p>
+                  <p className="text-sm text-muted-foreground">info@socoal.co.mz</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -67,7 +67,7 @@ export default function Contact() {
             {/* Map */}
             <div className="rounded-lg overflow-hidden border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125529.20174767373!2d13.18986!3d-8.83833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f15cdc4aac49%3A0x850c1c5c76bc4726!2sLuanda%2C%20Angola!5e0!3m2!1spt-PT!2s!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114751.11474710886!2d32.5411!3d-25.9692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee69723b3a2707d%3A0xa2194b56a6956ac!2sMaputo%2C%20Mo%C3%A7ambique!5e0!3m2!1spt-PT!2s!4v1"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}

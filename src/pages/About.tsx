@@ -2,10 +2,10 @@ import { Target, Eye, Heart, Award } from "lucide-react";
 import aboutStore from "@/assets/about-store.jpg";
 
 const values = [
-  { icon: Target, title: "Missão", text: "Fornecer materiais elétricos e ferramentas de qualidade, garantindo segurança e satisfação dos nossos clientes em toda Angola." },
+  { icon: Target, title: "Missão", text: "Fornecer materiais elétricos e ferramentas de qualidade, garantindo segurança e satisfação dos nossos clientes em todo Moçambique." },
   { icon: Eye, title: "Visão", text: "Ser a referência nacional em materiais elétricos, reconhecida pela excelência no atendimento e qualidade dos produtos." },
   { icon: Heart, title: "Valores", text: "Integridade, compromisso com a qualidade, atendimento personalizado e responsabilidade com a segurança elétrica." },
-  { icon: Award, title: "Experiência", text: "Mais de 15 anos de experiência no mercado angolano, servindo milhares de clientes entre profissionais e particulares." },
+  { icon: Award, title: "Experiência", text: "Mais de 15 anos de experiência no mercado moçambicano, servindo milhares de clientes entre profissionais e particulares." },
 ];
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl mb-4">A Nossa História</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A SOCOAL nasceu da paixão pela eletricidade e da vontade de oferecer aos angolanos produtos de qualidade a preços acessíveis. Desde a nossa fundação, temos vindo a crescer e a expandir o nosso catálogo para atender às necessidades de electricistas profissionais e clientes particulares.
+              A SOCOAL nasceu da paixão pela eletricidade e da vontade de oferecer aos moçambicanos produtos de qualidade a preços acessíveis. Desde a nossa fundação, temos vindo a crescer e a expandir o nosso catálogo para atender às necessidades de electricistas profissionais e clientes particulares.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Com uma equipa dedicada e conhecedora do setor, garantimos não só a venda de produtos, mas também aconselhamento técnico especializado para que cada projeto seja realizado com segurança e eficiência.

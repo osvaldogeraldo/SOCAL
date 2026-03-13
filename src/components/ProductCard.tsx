@@ -5,7 +5,7 @@ import { useCart } from "@/contexts/CartContext";
 
 export default function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();
-  const whatsappUrl = `https://wa.me/244923456789?text=${encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name} - ${formatPrice(product.price)}`)}`;
+  const whatsappUrl = `https://wa.me/258841234567?text=${encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name} - ${formatPrice(product.price)}`)}`;
 
   return (
     <div className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow group border border-border">
