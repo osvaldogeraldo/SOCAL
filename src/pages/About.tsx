@@ -2,10 +2,10 @@ import { Target, Eye, Heart, Award } from "lucide-react";
 import aboutStore from "@/assets/about-store.jpg";
 
 const values = [
-  { icon: Target, title: "Missão", text: "Fornecer materiais elétricos e ferramentas de qualidade, garantindo segurança e satisfação dos nossos clientes em toda Angola." },
+  { icon: Target, title: "Missão", text: "Fornecer materiais elétricos e ferramentas de qualidade, garantindo segurança e satisfação dos nossos clientes em todo Moçambique." },
   { icon: Eye, title: "Visão", text: "Ser a referência nacional em materiais elétricos, reconhecida pela excelência no atendimento e qualidade dos produtos." },
   { icon: Heart, title: "Valores", text: "Integridade, compromisso com a qualidade, atendimento personalizado e responsabilidade com a segurança elétrica." },
-  { icon: Award, title: "Experiência", text: "Mais de 15 anos de experiência no mercado angolano, servindo milhares de clientes entre profissionais e particulares." },
+  { icon: Award, title: "Experiência", text: "Mais de 15 anos de experiência no mercado moçambicano, servindo milhares de clientes entre profissionais e particulares." },
 ];
 
 export default function About() {
