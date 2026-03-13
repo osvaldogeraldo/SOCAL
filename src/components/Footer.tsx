@@ -58,7 +58,7 @@ export default function Footer() {
 
       <div className="border-t border-primary/20">
         <div className="container mx-auto px-4 py-4 text-center text-sm opacity-60">
-          © {new Date().getFullYear()} SOCOAL — Materiais Elétricos & Ferramentas. Todos os direitos reservados.
+          © {new Date().getFullYear()} SOCOAL — Materiais Eléctricos & Ferramentas. Todos os direitos reservados.
         </div>
       </div>
     </footer>
