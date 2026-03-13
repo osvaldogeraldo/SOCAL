@@ -7,7 +7,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Nome: ${form.name}\nEmail: ${form.email}\nTelefone: ${form.phone}\n\n${form.message}`;
-    window.open(`https://wa.me/244923456789?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/258841234567?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
