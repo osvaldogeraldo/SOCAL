@@ -49,7 +49,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm mb-1">Email</h3>
-                  <p className="text-sm text-muted-foreground">info@socoal.co.ao</p>
+                  <p className="text-sm text-muted-foreground">info@socoal.co.mz</p>
                 </div>
               </div>
               <div className="flex gap-4">
