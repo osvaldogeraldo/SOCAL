@@ -41,7 +41,7 @@ export default function Index() {
               <Link to="/loja" className="gradient-primary text-primary-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity inline-flex items-center gap-2">
                 Ver Produtos <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="https://wa.me/244923456789" target="_blank" rel="noopener noreferrer" className="bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity">
+              <a href="https://wa.me/258841234567" target="_blank" rel="noopener noreferrer" className="bg-whatsapp text-whatsapp-foreground px-8 py-3 rounded-md font-display text-sm hover:opacity-90 transition-opacity">
                 Fale Connosco
               </a>
             </div>
